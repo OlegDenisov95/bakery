@@ -1,0 +1,26 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "build": "esbuild js/index.js --outfile=js/bundle.js --bundle --loader:.js=jsx --jsx=automatic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegDenisov95/bakery.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlegDenisov95/bakery/issues"
+  },
+  "homepage": "https://github.com/OlegDenisov95/bakery#readme",
+  "devDependencies": {
+    "esbuild": "^0.15.13"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
